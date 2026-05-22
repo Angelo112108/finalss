@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-left: 4px solid #8b0000;
+  padding-left: 12px;
+  margin-bottom: 25px;
+}
+
+/* TABLE */
+.shop-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.shop-table thead tr {
+  background-color: #8b0000;
+}
+
+.shop-table th {
+  color: #ffffff;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 12px;
+}
+
+.shop-table tbody tr {
+  border-bottom: 1px solid #222222;
+  transition: background-color 0.2s;
+}
+
+.shop-table tbody tr:hover {
+  background-color: #1a0000;
+}
+
+/* CELLS */
+.character-name {
+  font-size: 14px;
+  color: #8b0000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 12px;
+  font-weight: bold;
+}
+
+
+
+.product-cell {
+  padding: 15px 10px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+}
+
+.product-cell img {
+   border-radius: 6px;
+  border: 1px solid #333333;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.product-cell img:hover {
+  transform: scale(1.1);
+  border-color: #8b0000;
+}
+
+.price {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: #8b0000;
+  border-radius: 4px;
+  padding: 2px 6px;
+  display: block;
+  margin-top: 6px;
+}
+
+.price-cell {
+  text-align: center;
+  color: #ffcc00;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  vertical-align: middle;
+}
+
+/* ITEM LABEL */
+.item-label {
+  display: block;
+  font-size: 11px;
+  color: #aaaaaa;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
